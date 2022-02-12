@@ -1,0 +1,5 @@
+NONE  = 0
+FOLD  = 1
+CALL  = 2  
+CHECK = 3
+RAISE = 4
