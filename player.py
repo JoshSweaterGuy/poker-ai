@@ -17,6 +17,8 @@ class Player:
     def fold(self):
         self.is_folded = True
 
+    def __repr__(self):
+        return "Player {}: {} \n round_bet {}, total_bet {}".format(self.index, self.cards, self.round_bet, self.total_bet)
     def __str__(self):
         return "Player {}: {}".format(self.index, self.cards)
     

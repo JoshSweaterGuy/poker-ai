@@ -1,6 +1,8 @@
 from game import Game
+from card import Card
 
 def main():
+
     game = Game()
     print('starting game')
     game.simulations(1)
